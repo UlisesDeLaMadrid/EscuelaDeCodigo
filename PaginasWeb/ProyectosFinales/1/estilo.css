@@ -1,0 +1,91 @@
+/* Comentario: Estilos generales para la página */
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #ffffff;
+}
+
+h2 {
+    color:#bc955c;
+}
+p {
+    color: #959595; 
+}
+hr {
+    border: 1px solid rgb(220, 220, 221);   
+}
+#logo {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-right: 10px;
+    padding-right: 10px;
+    border-right: #959595;
+    border-right-width: 5px ;
+}
+#vec {
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+}
+a {
+    color: #104c42;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.menu {
+    text-align: right;
+}
+.imagen {
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    height: 500px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bot {
+    text-align: center;
+    
+}
+strong {
+    color:#5f5e5e ;
+}
+.apr {
+    color:#ffffff;
+    font-family: "SourceCodePro", sans-serif;
+    font-weight:900;
+    font-size: 60px;
+    margin-right: 300px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    text-align: end;
+    padding: 100px;
+    
+}
+b {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 77px;
+    font-weight:1000;
+}
+header {
+    position: relative;
+}
+span {
+    position: absolute;
+    font-size: 9.5px;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 13.5px;
+    padding-left: 10px;
+    color: #959595;
+    font-weight: 600;
+}
+/* Otros estilos específicos pueden agregarse aquí */
